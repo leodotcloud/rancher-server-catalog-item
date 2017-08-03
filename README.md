@@ -2,6 +2,13 @@
 
 This catalog provides templates for running different versions of rancher/server in various configurations.
 
+## Usage
+
+In an existing Rancher installation, as an Admin user, navigate to "Admin" > "Settings". Under the "Catalog" section, click on "Add Catalog" and enter the following details:
+* **Name:** `Rancher Server` (Or you can choose any custom unique name)
+* **URL:** `https://github.com/leodotcloud/rancher-server-catalog-item.git`
+* **Branch:** `master`
+
 # License
 Copyright (c) 2014-2017 [Rancher Labs, Inc.](http://rancher.com)
 
